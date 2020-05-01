@@ -1,0 +1,6 @@
+antti@antti:~$ sudo docker ps -a
+CONTAINER ID        IMAGE               COMMAND                  CREATED              STATUS                      PORTS               NAMES
+1699b571f23d        nginx               "nginx -g 'daemon of…"   About a minute ago   Exited (0) 10 seconds ago                       friendly_jones
+74a3bf6b43b0        nginx               "nginx -g 'daemon of…"   About a minute ago   Up About a minute           80/tcp              happy_diffie
+14c4f73bb668        nginx               "nginx -g 'daemon of…"   About a minute ago   Up About a minute           80/tcp              amazing_merkle
+

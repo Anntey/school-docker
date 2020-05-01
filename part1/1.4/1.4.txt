@@ -1,0 +1,11 @@
+antti@antti:~$ sudo docker run -d --rm -it --name exec14 devopsdockeruh/exec_bash_exercise 
+3017740fa261bd6c99bb8bd4088af092f00285b7dfc5b84fe7c09784ddba9d46
+antti@antti:~$ sudo docker exec -it exec14 bash
+root@3017740fa261:/usr/app# tail -f ./logs.txt 
+Fri, 01 May 2020 09:33:32 GMT
+Fri, 01 May 2020 09:33:35 GMT
+Fri, 01 May 2020 09:33:38 GMT
+Fri, 01 May 2020 09:33:41 GMT
+Secret message is:
+"Docker is easy"
+

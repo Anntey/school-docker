@@ -1,0 +1,14 @@
+antti@antti:~/Downloads/projects/school-docker/part1/1.7$ sudo docker build -t curler .
+antti@antti:~/Downloads/projects/school-docker/part1/1.7$ sudo docker run -d --rm -it --name exc17 curler
+antti@antti:~/Downloads/projects/school-docker/part1/1.7$ sudo docker attach exc17
+helsinki.fi
+Searching..
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="http://www.helsinki.fi/">here</a>.</p>
+</body></html>
+
+
